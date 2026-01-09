@@ -4,69 +4,97 @@
 <meta charset="UTF-8">
 <title>Rychlá půjčka</title>
 <style>
+/* CELÁ STRÁNKA */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background:#f5f2f3;
-  padding:20px;
+  background: linear-gradient(135deg, #6f1d2a, #8b2436);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* HLAVNÍ BOX */
 .box {
-  max-width:620px;
-  background:#ffffff;
-  padding:30px;
-  margin:auto;
-  border-radius:10px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 640px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
 }
+
+/* NADPIS */
 h1 {
-  color:#7a1f2b;
+  color: #6f1d2a;
+  margin-top: 0;
 }
-.btn {
-  display:block;
-  background:#7a1f2b;
-  color:#fff;
-  text-align:center;
-  padding:16px;
-  margin:16px 0;
-  text-decoration:none;
-  font-weight:bold;
-  border-radius:8px;
-  letter-spacing:0.5px;
+
+/* TEXT */
+p {
+  color: #333;
+  line-height: 1.5;
 }
-.btn:hover {
-  background:#5e1620;
-}
-.small {
-  font-size:13px;
-  color:#666;
-}
+
+/* SEZNAM */
 ul {
-  padding-left:18px;
+  padding-left: 20px;
+  color: #333;
+}
+
+/* TLAČÍTKA */
+.btn {
+  display: block;
+  background: #6f1d2a;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  margin: 18px 0;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.btn:hover {
+  background: #54141f;
+}
+
+/* DROBNÝ TEXT */
+.small {
+  font-size: 13px;
+  color: #666;
+  margin-top: 15px;
 }
 </style>
 </head>
 
 <body>
+
 <div class="box">
-<h1>Rychlá půjčka a konsolidace</h1>
+  <h1>Rychlá půjčka a konsolidace</h1>
 
-<p><strong>Potřebujete peníze, snížit splátky nebo vyřešit více půjček?</strong><br>
-Pomohu Vám najít řešení dle Vaší konkrétní situace.</p>
+  <p><strong>Potřebujete peníze nebo snížit splátky?</strong><br>
+  Pomohu Vám najít řešení dle Vaší konkrétní situace.</p>
 
-<ul>
-<li>rychlé posouzení</li>
-<li>diskrétní a lidský přístup</li>
-<li>nezávazná konzultace</li>
-</ul>
+  <ul>
+    <li>rychlé posouzení</li>
+    <li>diskrétní a lidský přístup</li>
+    <li>nezávazná konzultace</li>
+  </ul>
 
-<a class="btn" href="tel:605151208">📞 ZAVOLAT 605 151 208</a>
-<a class="btn" href="sms:605151208">✉️ NAPSAT SMS</a>
+  <a class="btn" href="tel:605151208">📞 ZAVOLAT 605 151 208</a>
+  <a class="btn" href="sms:605151208">✉️ NAPSAT SMS</a>
 
-<p><strong>Andrea Slegrová</strong><br>
-finanční poradenství</p>
+  <p><strong>Andrea Slegrová</strong><br>
+  finanční poradenství</p>
 
-<p class="small">
-Informativní stránka. Nejedná se o závaznou nabídku.
-</p>
+  <p class="small">
+    Informativní stránka. Nejedná se o závaznou nabídku.
+  </p>
 </div>
+
 </body>
 </html>
